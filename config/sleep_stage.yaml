@@ -1,0 +1,20 @@
+# 데이터셋
+task: isruc1 #isruc1, shhs1, shhs2, mesa
+
+data: Mel # IHR_EDR, ECG_IHR, Mel
+
+data_files: E:\coding\sleep_stage_upload\prepare_datasets_isruc\ISRUC1_ECG_mel_class4 #<- Please change to your directory path
+
+batch_size: 128
+
+random_seed: 54321
+
+optimizer: adam
+k_folds : 5
+patience : 20
+
+optimizer_params:
+  adam:
+    lr: 0.0001 #0.0001, 0.0003
+
+max_epochs: 20
