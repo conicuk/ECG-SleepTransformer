@@ -222,5 +222,3 @@ If you use this codebase, please cite:
 
 **End-to-End Sleep Stage Classification from Single-Channel ECG via Mel-Spectrogram and Hybrid CNN-Transformer Encoder**  
 (Manuscript under review)
-
-> (Optional) After publication, you can add a `CITATION.cff` file so GitHub displays citation info automatically.
