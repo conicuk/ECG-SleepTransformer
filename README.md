@@ -3,7 +3,7 @@ Official implementation of "ECG-based Sleep Stage Classification using a CNN–T
 
 Latest Update: 2025/12/31
 
-PyTorch code for "End-to-End Sleep Stage Classification from Single-Channel ECG via Mel-Spectrogram and Hybrid CNN-Transformer Encoder" using:
+PyTorch code for preprocessing, training, and evaluation, including:
 - 🎛️ Mel-spectrogram preprocessing
 - 🧠 Hybrid **CNN-Transformer** Encoder (Proposed)
 - 📌 Multiple baselines (including SleepTransformer baseline4)
